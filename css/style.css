@@ -74,15 +74,15 @@ body {
 
 /* Hero Section */
 .container {
-  margin: 0 8.5%;
+  margin: 0 4%;
   position: relative;
   overflow: hidden;
 }
 .beranda {
   height: 100vh;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 65px;
 }
 .beranda .content h3 {
   font-size: 20px;
@@ -133,8 +133,9 @@ body {
 }
 /* Tentang Saya */
 .about {
-  padding: 3em, 0 10em;
-  max-width: 100%;
+  padding: 3em 0 10em;
+  width: 100%;
+  align-items: center;
 }
 .about-title {
   font-size: 30px;
@@ -154,6 +155,8 @@ body {
   width: 300px;
   height: 403px;
   background-image: url(../img/ayk.png);
+  position: relative;
+  left: 10px;
 }
 .about .variation2 {
   width: 130px;
@@ -162,32 +165,29 @@ body {
   z-index: -999;
   position: relative;
   top: 30px;
-  left: 85px;
+  left: 100px;
   transform: rotate(55deg);
   border-radius: 0;
   border-top-left-radius: 200px;
   border-bottom-right-radius: 200px;
 }
 .about .side-bar2 {
-  width: 45%;
+  width: 100%;
+  margin-left: 130px;
 }
 .about .side-bar2 h2 {
   font-size: 30px;
   color: var(--colort);
   text-align: justify;
   line-height: 1.2em;
-  position: relative;
-  left: 500px;
-  top: -270px;
 }
 .about .side-bar2 p {
-  font-size: 25px;
+  width: 80%;
+  font-size: 24px;
   color: var(--colort);
   text-align: justify;
   line-height: 1.4em;
-  position: relative;
-  left: 500px;
-  top: -250px;
+  justify-content: center;
 }
 /* skill */
 .skill {
@@ -215,6 +215,9 @@ body {
   position: relative;
   overflow: hidden;
   text-align: center;
+}
+.card i {
+  font-size: 20px;
 }
 .cardp {
   height: 350px;
@@ -355,21 +358,32 @@ body {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
   }
+
+  .beranda {
+    margin-top: 200px;
+  }
+
+  .beranda .content-img {
+    border: 2px solid (172, 32, 32);
+    margin: 50px auto;
+  }
+
   .about-title {
     margin-top: 280px;
   }
-  .about .side-bar1 .image .variation .variation2 {
-    width: 95%;
+
+  .about .side-bar1 .image img {
+    margin: 0;
   }
-  .about .side-bar2 h2 {
-    width: 55%;
-    height: 50%;
+
+  .about .side-bar1 {
+    margin: auto;
   }
-  .about .side-bar2 p {
-    width: 85%;
-    height: 95%;
-    text-align: justify;
+
+  .about .side-bar2 {
+    margin: -50px auto;
   }
+
   .about .side-bar1,
   .about .side-bar2 {
     margin-top: 280px;
@@ -393,5 +407,15 @@ body {
   .about .side-bar1,
   .about .side-bar2 {
     margin-right: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .beranda {
+    display: flex;
+  }
+
+  .about {
+    display: flex;
   }
 }
