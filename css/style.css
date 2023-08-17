@@ -245,7 +245,7 @@ body {
 }
 .pra p {
   font-size: 16px;
-  line-height: 15px;
+  line-height: 14px;
   text-align: justify;
 }
 .prap p {
@@ -253,10 +253,58 @@ body {
   line-height: 15px;
   text-align: justify;
 }
+.btn1 a {
+  background-color: var(--colornv);
+  color: var(--colort);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 1.2em;
+  position: relative;
+  text-align: center;
+  top: 6px;
+  padding: 8px;
+  border-radius: 30px;
+}
+.btn2 a {
+  background-color: var(--colornv);
+  color: var(--colort);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 1.2em;
+  position: relative;
+  text-align: center;
+  top: 70px;
+  padding: 8px;
+  border-radius: 30px;
+}
+.btn3 a {
+  background-color: var(--colornv);
+  color: var(--colort);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 1.2 em;
+  position: relative;
+  text-align: center;
+  top: 55px;
+  padding: 8px;
+  border-radius: 30px;
+}
+.btn1 a:hover {
+  background-color: #295d69fc;
+}
+.btn2 a:hover {
+  background-color: #295d69fc;
+}
+.btn3 a:hover {
+  background-color: #295d69fc;
+}
 .cardp .imagep img {
   width: 100%;
   height: 100%;
   border-radius: 5%;
+}
+.cardp h5 {
+  font-size: 14px;
 }
 .contact {
   color: var(--colort);
