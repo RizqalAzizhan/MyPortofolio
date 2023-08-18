@@ -110,6 +110,19 @@ body {
   padding: 1em 1.6em;
   border-radius: 50px;
 }
+.beranda .content .button1 {
+  color: var(--colort);
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #884a39;
+  margin: 0 0 1em;
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 50px;
+  position: relative;
+  left: 150px;
+  top: -66px;
+}
 .beranda .content a:hover {
   background-color: var(--bb1h);
 }
