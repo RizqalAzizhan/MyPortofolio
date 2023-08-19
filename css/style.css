@@ -65,7 +65,7 @@ body {
   margin: 0 0.5rem;
 }
 .navbar .navbar-extra a:hover {
-  color: var(--colornv);
+  color: #ffc26f;
 }
 
 #hamburger-menu {
