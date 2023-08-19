@@ -516,8 +516,7 @@ body {
     margin: auto;
     margin-bottom: 25px;
     height: 365px;
-    margin-right: 25px;
-    border: solid 2px red;
+    margin-left: -13px;
   }
 
   .prap p {
