@@ -47,7 +47,7 @@ body {
   font-weight: 700;
 }
 .navbar .navbar-nav a:hover {
-  color: var(--colornv);
+  color: #ffc26f;
 }
 .navbar .navbar-nav a::after {
   content: "";
@@ -121,7 +121,7 @@ body {
   top: -73px;
 }
 .beranda .content a:hover {
-  background-color: var(--bb1h);
+  background-color: #ffc26f;
 }
 .beranda .variation {
   width: 290px;
