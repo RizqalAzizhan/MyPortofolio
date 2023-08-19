@@ -512,15 +512,16 @@ body {
     padding: 1em 7%;
   }
   .card {
+    width: 320px;
     margin: auto;
     margin-bottom: 25px;
     height: 365px;
   }
 
   .prap p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3em;
-    text-align: justify;
+    text-align: left;
     width: 100%;
   }
 
