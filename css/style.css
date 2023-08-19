@@ -218,8 +218,8 @@ body {
   margin: 0 2em;
 }
 .card {
-  height: 350px;
-  width: 270px;
+  height: 420px;
+  width: 300px;
   padding: 25px 40px;
   background: #ffc26f;
   border-radius: 20px;
@@ -228,12 +228,14 @@ body {
   overflow: hidden;
   text-align: center;
 }
+
 .card i {
   font-size: 20px;
+  color: black;
 }
 .cardp {
-  height: 390px;
-  width: 300px;
+  height: 540px;
+  width: 320px;
   padding: 20px 25px;
   background: #ffc26f;
   border-radius: 20px;
@@ -242,6 +244,11 @@ body {
   overflow: hidden;
   text-align: center;
 }
+
+.cardp h5 {
+  margin-bottom: 20px;
+}
+
 .card i {
   font-size: 30px;
   display: block;
@@ -252,71 +259,103 @@ body {
 .card h5 {
   font-size: 18px;
   margin-bottom: 10px;
+  color: black;
 }
+
 .pra p {
-  font-size: 17px;
-  line-height: 14px;
-  text-align: justify;
+  font-size: 18px;
+  line-height: 1.3em;
+  text-align: left;
   font-weight: 400;
+  margin-top: 20px;
+  color: black;
 }
 .prap p {
-  font-size: 17px;
-  line-height: 15px;
-  text-align: justify;
+  font-size: 18px;
+  line-height: 1.3em;
+  text-align: left;
+  justify-content: flex-start;
   font-weight: 500;
+  color: black;
 }
 .btn1 a {
-  background-color: var(--colornv);
+  background-color: #884a39;
   color: var(--colort);
   font-size: 16px;
   font-weight: 600;
   margin: 0 1.2em;
   position: relative;
   text-align: center;
-  top: 6px;
+  top: 15px;
   padding: 8px;
   border-radius: 30px;
+  transition: 300ms;
 }
 .btn2 a {
-  background-color: var(--colornv);
+  background-color: #884a39;
   color: var(--colort);
   font-size: 16px;
   font-weight: 600;
   margin: 0 1.2em;
   position: relative;
   text-align: center;
-  top: 85px;
+  top: 105px;
   padding: 8px;
   border-radius: 30px;
+  transition: 300ms;
 }
 .btn3 a {
-  background-color: var(--colornv);
+  background-color: #884a39;
   color: var(--colort);
   font-size: 16px;
   font-weight: 600;
   margin: 0 1.2 em;
   position: relative;
   text-align: center;
-  top: 55px;
+  top: 85px;
   padding: 8px;
   border-radius: 30px;
+  transition: 300ms;
 }
 .btn1 a:hover {
-  background-color: #295d69fc;
+  background-color: #c38154;
 }
 .btn2 a:hover {
-  background-color: #295d69fc;
+  background-color: #c38154;
 }
 .btn3 a:hover {
-  background-color: #295d69fc;
+  background-color: #c38154;
 }
 .cardp .imagep img {
   width: 100%;
   height: 100%;
   border-radius: 5%;
 }
+.cardp .imagep1 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 27px;
+  border-radius: 5%;
+}
+.cardp .imagep2 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+  border-radius: 5%;
+}
 .cardp h5 {
   font-size: 20px;
+  color: black;
+}
+.cardp .td {
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
+.cardp .tw {
+  font-size: 20px;
+  position: relative;
+  top: 20px;
 }
 .contact {
   color: var(--colort);
@@ -419,6 +458,7 @@ body {
 
   .beranda {
     margin-top: 200px;
+    height: 650px;
   }
 
   .content-img {
@@ -433,36 +473,52 @@ body {
 
   .about .image {
     margin: auto;
-    margin-left: -60px;
   }
+
+  .about .image .variation2 {
+    width: 130px;
+    height: 330px;
+  }
+
   .about .side-bar1 .image img {
     margin: 0;
   }
 
   .about .side-bar1 {
     margin: auto;
+
+    position: relative;
   }
 
   .about .side-bar2 {
-    margin: -40px auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about .side-bar2 h2 {
+    text-align: center;
+  }
+
+  .about .side-bar2 p {
+    text-align: center;
+    margin: 30px auto;
     width: 100%;
   }
 
   .about .side-bar1,
   .about .side-bar2 {
-    margin-top: 280px;
-    width: 55%;
     height: 75%;
     padding: 1em 7%;
   }
   .card {
     margin: auto;
     margin-bottom: 25px;
+    height: 365px;
   }
 
   .prap p {
     font-size: 16px;
-    line-height: 15px;
+    line-height: 1.3em;
     text-align: justify;
     width: 100%;
   }
@@ -471,9 +527,16 @@ body {
     margin: auto;
     margin-bottom: 25px;
   }
-  .contact .links img {
-    position: relative;
-    right: 20px;
+  .contact .links {
+    width: 65%;
+  }
+
+  .skill {
+    margin-bottom: 20px;
+  }
+
+  .Pencapaian {
+    margin-bottom: 20px;
   }
 }
 
