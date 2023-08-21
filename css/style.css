@@ -467,6 +467,7 @@ body {
   .beranda {
     margin-top: 200px;
     height: 650px;
+    margin-left: -0.1px;
   }
 
   .content-img {
@@ -481,6 +482,7 @@ body {
 
   .about .image {
     margin: auto;
+    width: 100px;
   }
 
   .about .image .variation2 {
@@ -501,6 +503,7 @@ body {
   .about .side-bar2 {
     margin: 0 auto;
     width: 100%;
+    margin-left: -25px;
   }
 
   .about .side-bar2 h2 {
