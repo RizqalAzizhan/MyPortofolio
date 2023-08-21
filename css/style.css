@@ -82,7 +82,8 @@ body {
   height: 100vh;
   justify-content: space-between;
   align-items: center;
-  margin-top: 65px;
+  margin-top: 55px;
+  margin-left: 85px;
 }
 .beranda .content h3 {
   margin-top: 100px;
@@ -143,7 +144,7 @@ body {
   background-image: url(../img/ayk.png);
   background-size: cover;
   background-position: center;
-  margin-right: 7%;
+  margin-right: 6%;
   margin-top: 7%;
 }
 /* Tentang Saya */
@@ -163,6 +164,7 @@ body {
   height: 405px;
   justify-content: baseline;
   margin-top: 50px;
+  margin-left: 100px;
 }
 
 .about .side-bar1 .image {
@@ -187,12 +189,15 @@ body {
 .about .side-bar2 {
   width: 100%;
   margin-left: 200px;
+  margin-top: 100px;
 }
 .about .side-bar2 h2 {
   font-size: 30px;
   color: var(--colort);
   text-align: justify;
   line-height: 1.2em;
+  position: relative;
+  left: 25px;
 }
 .about .side-bar2 p {
   width: 80%;
@@ -201,6 +206,8 @@ body {
   text-align: justify;
   line-height: 1.4em;
   justify-content: center;
+  position: relative;
+  left: 25px;
 }
 /* skill */
 .skill {
@@ -224,7 +231,7 @@ body {
   padding: 25px 40px;
   background: #ffc26f;
   border-radius: 20px;
-  margin: 15px;
+  margin: 30px;
   position: relative;
   overflow: hidden;
   text-align: center;
