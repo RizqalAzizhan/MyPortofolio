@@ -1,11 +1,13 @@
 :root {
-  --nav: #01133fa8;
-  --bg: #030b28;
-  --colornv: #43bfd8b3;
+  --nav: #884a39;
+  --bg: #c38154;
   --colort: white;
-  --colorh1: #03262efc;
-  --bb1: #105360b3;
-  --bb1h: #0e4955b3;
+
+  --navd:#090e54cd;
+  --bgd:#070733;
+  --btn:#104854;
+  --btnh:#1a6272;
+
 }
 
 * {
@@ -17,7 +19,7 @@
   font-family: "Poppins";
 }
 body {
-  background-color: #c38154;
+  background-color: var(--bgd);
   color: rgb(255, 255, 255);
 }
 
@@ -27,7 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 7%;
-  background-color: #884a39;
+  background-color: var(--navd);
   position: fixed;
   top: 0;
   left: 0;
@@ -102,7 +104,7 @@ body {
   color: var(--colort);
   font-size: 16px;
   font-weight: 700;
-  background-color: #884a39;
+  background-color: var(--btn);
   margin: 0 0 1em;
   display: inline-block;
   padding: 1em 1.6em;
@@ -112,7 +114,7 @@ body {
   color: var(--colort);
   font-size: 16px;
   font-weight: 700;
-  background-color: #884a39;
+  background-color: var(--btn);
   margin: 0 0 1em;
   display: inline-block;
   padding: 1em 2em;
@@ -122,7 +124,7 @@ body {
   top: -73px;
 }
 .beranda .content a:hover {
-  background-color: #ffc26f;
+  background-color: var(--btnh);
 }
 .beranda .variation {
   width: 290px;
@@ -229,7 +231,7 @@ body {
   height: 420px;
   width: 300px;
   padding: 25px 40px;
-  background: #ffc26f;
+  background: var(--btn);
   border-radius: 20px;
   margin: 30px;
   position: relative;
@@ -239,13 +241,13 @@ body {
 
 .card i {
   font-size: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .cardp {
   height: 540px;
   width: 320px;
   padding: 20px 25px;
-  background: #ffc26f;
+  background: var(--btn);
   border-radius: 20px;
   margin: 15px;
   position: relative;
@@ -267,7 +269,7 @@ body {
 .card h5 {
   font-size: 18px;
   margin-bottom: 10px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .pra p {
@@ -276,7 +278,7 @@ body {
   text-align: left;
   font-weight: 400;
   margin-top: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .prap p {
   font-size: 18px;
@@ -284,11 +286,11 @@ body {
   text-align: left;
   justify-content: flex-start;
   font-weight: 500;
-  color: black;
+  color: rgb(252, 252, 252);
 }
 .btn1 a {
-  background-color: #884a39;
-  color: var(--colort);
+  background-color: var(--colort);
+  color: black;
   font-size: 16px;
   font-weight: 600;
   margin: 0 1.2em;
@@ -300,8 +302,8 @@ body {
   transition: 300ms;
 }
 .btn2 a {
-  background-color: #884a39;
-  color: var(--colort);
+  background-color: var(--colort);
+  color: black;
   font-size: 16px;
   font-weight: 600;
   margin: 0 1.2em;
@@ -313,8 +315,8 @@ body {
   transition: 300ms;
 }
 .btn3 a {
-  background-color: #884a39;
-  color: var(--colort);
+  background-color: var(--colort);
+  color: black;
   font-size: 16px;
   font-weight: 600;
   margin: 0 1.2 em;
@@ -326,13 +328,16 @@ body {
   transition: 300ms;
 }
 .btn1 a:hover {
-  background-color: #c38154;
+  background-color: var(--bgd);
+  color: var(--colort);
 }
 .btn2 a:hover {
-  background-color: #c38154;
+  background-color: var(--bgd);
+  color: var(--colort);
 }
 .btn3 a:hover {
-  background-color: #c38154;
+  background-color: var(--bgd);
+  color: var(--colort);
 }
 .cardp .imagep img {
   width: 100%;
@@ -353,7 +358,7 @@ body {
 }
 .cardp h5 {
   font-size: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .cardp .td {
   font-size: 20px;
